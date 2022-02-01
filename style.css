@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    
 }
 
 
@@ -15,7 +16,7 @@ body {
     padding: 0 10px;
 }
 
-.header-links a {
+.header-links a, .subtext {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
@@ -31,9 +32,20 @@ body {
 
 .top {
     display: flex;
+    gap: 100px;
+    background-color: #1F2937;
 }
 
 .top-text {
     display: flex;
     flex-direction: column;
+    flex: 0;
+    
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    
 }
