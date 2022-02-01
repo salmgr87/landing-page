@@ -28,3 +28,12 @@ body {
     gap: 1em;
     
 }
+
+.top {
+    display: flex;
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+}
