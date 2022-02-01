@@ -13,7 +13,7 @@ body {
     color: #F9FaF8;
     font-size: 24px;
     background-color: #1F2937;
-    padding: 10px 100px;
+    padding: 10px 120px;
 }
 
 .header-links a, .subtext, button {
@@ -34,14 +34,14 @@ body {
     display: flex;
     gap: 100px;
     background-color: #1F2937;
-    padding: 0 100px;
+    padding: 100px 120px;
 }
 
 .top-text {
     display: flex;
     flex-direction: column;
     flex: 1;
-    
+    gap: 8px;
 }
 
 .hero {
@@ -62,4 +62,5 @@ button {
    border-radius: 8px;
    border:#3882F6;
    font-weight: 700;
+   margin: 1em 0 0 0;
 }
