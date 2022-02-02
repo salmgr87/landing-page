@@ -76,5 +76,26 @@ footer {
 
 .information {
     display: flex;
+    flex-direction: column;    
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-images {
+    display: flex;
+    gap: 1em;
+}
+
+.info-images img {
+    
+}
+
+.image-and-text {
+    display: flex;
     flex-direction: column;
+    flex: 0;
 }
