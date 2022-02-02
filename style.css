@@ -64,3 +64,17 @@ button {
    font-weight: 700;
    margin: 1em 0 0 0;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
