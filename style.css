@@ -127,3 +127,8 @@ font-size: 36px;
 font-style: italic;
 font-weight: 200;
 }
+
+.quote-credit {
+    align-self: flex-end;
+    font-weight: 600;
+}
