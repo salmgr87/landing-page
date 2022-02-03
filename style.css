@@ -69,7 +69,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 9px;
+    padding: 20px;
     background-color: #1F2937;
     color: #E5E7EB;
 }
@@ -110,4 +110,20 @@ footer {
     gap: 8px;
     color: #1F2937;
     font-weight: 500;
+}
+
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 260px;
+    background-color: #E5E7EB;
+    
+}
+
+.quote {
+color: #1F2937;
+font-size: 36px;
+font-style: italic;
+font-weight: 200;
 }
