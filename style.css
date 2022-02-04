@@ -122,13 +122,42 @@ footer {
 }
 
 .quote {
-color: #1F2937;
-font-size: 36px;
-font-style: italic;
-font-weight: 200;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
 }
 
 .quote-credit {
     align-self: flex-end;
     font-weight: 600;
+}
+
+.bottom-banner {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: #3882F6;
+    margin: 70px 100px;
+    border-radius: 8px;
+    
+}
+
+.banner-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.banner-statement {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+
+.banner-button {
+    border: white solid 2px;
+    font-size: 15px;
+    width: 110px;
+    
 }
