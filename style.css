@@ -95,6 +95,7 @@ footer {
     gap: 3em;
     justify-content: center;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .info-images img {
